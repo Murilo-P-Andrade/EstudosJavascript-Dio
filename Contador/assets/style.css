@@ -1,0 +1,38 @@
+body{
+    color: gray;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    border-radius: 50%;
+    border: 1px solid rosybrown;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
